@@ -1,10 +1,10 @@
 # UK100 3m OHLCV Index Historical Data — Free Sample
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset rows](https://img.shields.io/badge/full_dataset-62_619_rows-blue)](https://ork.ad/) [![Updated](https://img.shields.io/badge/weekly_update-every_Sunday-green)](https://ork.ad/) [![Full data on ork.ad](https://img.shields.io/badge/download-ork.ad-orange)](https://ork.ad/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset rows](https://img.shields.io/badge/full_dataset-1_343_778_rows-blue)](https://ork.ad/) [![Updated](https://img.shields.io/badge/weekly_update-every_Sunday-green)](https://ork.ad/) [![Full data on ork.ad](https://img.shields.io/badge/download-ork.ad-orange)](https://ork.ad/)
 
 ### → [**Download the full UK100 dataset on ork.ad**](https://ork.ad/)
 
-**UK100 3m OHLCV Stock index historical data** — ultra high-quality 3m OHLCV for **UK 100 (FTSE)**. Global cash and extended index sessions — Asia, Europe and US coverage, not US-hours only. Clean `time, open, high, low, close, volume` CSV for backtesting, algorithmic trading and quantitative research.
+**UK100 3m OHLCV Stock index historical data** — ultra high-quality 3m OHLCV for **FTSE 100**. Global cash and extended index sessions — Asia, Europe and US coverage, not US-hours only. Clean `time, open, high, low, close, volume` CSV for backtesting, algorithmic trading and quantitative research.
 
 ## Table of contents
 
@@ -21,14 +21,14 @@
 
 ## Why this dataset?
 
-- **Ultra high-quality 3m OHLCV** for **UK 100 (FTSE)** (Stock index)
+- **Ultra high-quality 3m OHLCV** for **FTSE 100** (Stock index)
 - **Global cash and extended index sessions — Asia, Europe and US coverage, not US-hours only**
 - **Clean CSV schema** — `time, open, high, low, close, volume` (no gaps in formatting)
-- **Free evaluation sample** on GitHub (`3m`) · **13 timeframes** on [ork.ad](https://ork.ad/) · **62,619** `3m` rows in the full archive
+- **Free evaluation sample** on GitHub (`3m`) · **13 timeframes** on [ork.ad](https://ork.ad/) · **1,343,778** `3m` rows in the full archive
 - Built for **backtesting**, **algorithmic trading** and **quantitative finance** workflows
 - **Weekly refresh** — [ork.ad](https://ork.ad/) every **Sunday**; GitHub `3m` sample updated in sync
 
-> **Sample on GitHub** · `UK100_3m.csv` (49,986 rows, `2026-01-05` → `2026-07-02`). **Full archive on [ork.ad](https://ork.ad/)** — **62,619** `3m` rows (~3.96 MB), **13 timeframes** (``1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W``), `2025-11-14` → `2026-07-02`.
+> **Sample on GitHub** · `UK100_3m.csv` (50,388 rows, `2026-01-05` → `2026-07-03`). **Full archive on [ork.ad](https://ork.ad/)** — **1,343,778** `3m` rows (~73.93 MB), **13 timeframes** (``1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W``), `2008-09-10` → `2026-07-03`.
 
 ## Download sample
 
@@ -42,11 +42,11 @@ Interactive chart & stats: **[https://ork-ad.github.io/uk100-3m-ohlcv-index-hist
 
 | | **Sample (this repo)** | **Full dataset ([ork.ad](https://ork.ad/))** |
 |---|--:|---|
-| Instrument | UK 100 (FTSE) · Stock index | UK 100 (FTSE) · Stock index |
+| Instrument | FTSE 100 · Stock index | FTSE 100 · Stock index |
 | Timeframes | `3m` (sample) | **13** — `1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W` |
-| 3m rows | 49,986 | **62,619** |
-| Size | 3.22 MB | ~3.96 MB |
-| Period | `2026-01-05` → `2026-07-02` | `2025-11-14` → `2026-07-02` |
+| 3m rows | 50,388 | **1,343,778** |
+| Size | 3.23 MB | ~73.93 MB |
+| Period | `2026-01-05` → `2026-07-03` | `2008-09-10` → `2026-07-03` |
 | File | `UK100_3m.csv` | ZIP on [ork.ad](https://ork.ad/) |
 | Updates | Weekly (Sunday) — GitHub sample | Weekly (Sunday) — all timeframes |
 
@@ -73,21 +73,21 @@ First and latest rows from the GitHub sample **`UK100_3m.csv`**:
 
 | time | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
-| 2026-01-05T01:00:00Z | 10020.05 | 10042.72 | 10020.05 | 10031.51 | 358.0 |
-| 2026-01-05T01:03:00Z | 10031.51 | 10031.51 | 10025.76 | 10026.28 | 103.0 |
-| 2026-01-05T01:06:00Z | 10026.28 | 10032.73 | 10026.01 | 10031.77 | 86.0 |
-| 2026-01-05T01:09:00Z | 10031.77 | 10034.22 | 10029.52 | 10033.78 | 93.0 |
-| 2026-01-05T01:12:00Z | 10033.78 | 10034.72 | 10031.26 | 10033.76 | 53.0 |
+| 2026-01-05T01:00:00Z | 10020.85 | 10043.52 | 10020.85 | 10032.31 | 358.0 |
+| 2026-01-05T01:03:00Z | 10032.31 | 10032.31 | 10026.56 | 10027.08 | 103.0 |
+| 2026-01-05T01:06:00Z | 10027.08 | 10033.53 | 10026.81 | 10032.57 | 86.0 |
+| 2026-01-05T01:09:00Z | 10032.57 | 10035.02 | 10030.32 | 10034.58 | 93.0 |
+| 2026-01-05T01:12:00Z | 10034.58 | 10035.52 | 10032.06 | 10034.56 | 53.0 |
 
 **Last rows**
 
 | time | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
 | time | open | high | low | close | volume |
-| 2026-07-02T19:48:00Z | 10660.42 | 10672.69 | 10658.69 | 10671.69 | 277.0 |
-| 2026-07-02T19:51:00Z | 10671.69 | 10675.94 | 10668.67 | 10673.19 | 342.0 |
-| 2026-07-02T19:54:00Z | 10673.19 | 10687.69 | 10673.19 | 10685.67 | 407.0 |
-| 2026-07-02T19:57:00Z | 10685.67 | 10690.18 | 10682.92 | 10688.62 | 479.0 |
+| 2026-07-03T19:45:00Z | 10660.8 | 10661.06 | 10659.81 | 10661.06 | 51.0 |
+| 2026-07-03T19:48:00Z | 10661.06 | 10661.82 | 10655.82 | 10657.32 | 72.0 |
+| 2026-07-03T19:51:00Z | 10657.32 | 10658.56 | 10647.3 | 10654.6 | 175.0 |
+| 2026-07-03T19:54:00Z | 10654.6 | 10656.05 | 10646.04 | 10646.79 | 107.0 |
 
 ## Schema
 
@@ -145,9 +145,9 @@ print(pf.stats())
 
 ## Download full data
 
-The complete **UK100** archive on **[ork.ad](https://ork.ad/)** includes **13 OHLCV timeframes** (`1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W`) — **62,619** rows at `3m`, plus all other timeframes in the same ZIP.
+The complete **UK100** archive on **[ork.ad](https://ork.ad/)** includes **13 OHLCV timeframes** (`1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W`) — **1,343,778** rows at `3m`, plus all other timeframes in the same ZIP.
 
 **[→ Get the full UK100 dataset on ork.ad](https://ork.ad/)**
 
 ---
-*GetData · UK100 3m OHLCV sample on GitHub · Full historical data on [ork.ad](https://ork.ad/) · 2026-07-04 UTC*
+*GetData · UK100 3m OHLCV sample on GitHub · Full historical data on [ork.ad](https://ork.ad/) · 2026-07-06 UTC*
